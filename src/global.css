@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.app{
+    display: flex;
+}
+
+h2, button{
+    font-family: 'Inter';
+}
+
+p{
+    font-family: 'Roboto';
+}

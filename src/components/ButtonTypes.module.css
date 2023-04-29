@@ -1,0 +1,158 @@
+.ButtonTypes{
+    background-color: #0b0911;
+    height: 100vh;
+    padding: 107px 76px 0 77px;
+}
+
+.ButtonTypes .tableTitle{
+    font-family: 'Roboto';
+    padding: 16px 0;
+    font-size: 11px;
+}
+
+.tableContainer{
+    background-color: #1c162c;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    border-collapse: collapse;
+    background-color: #1c162c;
+}
+
+.tableHeads th{
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+td{
+    text-align: center;
+}
+
+.cellsButton{
+    background-color: #0B0911;
+    padding: 16px;
+}
+
+.cellsButton .defaultPrimary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .defaultSecondary{
+    background-color: #3C3748;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .defaultTertiary{
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cursors{
+    text-align: center;
+    background-color: #0B0911;
+}
+
+.cellsButton .hoverPrimary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .hoverPrimary:hover{
+    background-color: #9674E5;
+}
+
+.cellsButton .hoverSecondary{
+    background-color: #3C3748;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .hoverTertiary{
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .focusPrimary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .focusPrimary:focus{
+    border: solid 2px white;
+}
+
+.cellsButton .focusSecondary{
+    background-color: #3C3748;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .focusSecondary:focus{
+    border: solid 2px white;
+}
+
+.cellsButton .focusTertiary{
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cellsButton .focusTertiary:focus{
+    border: solid 2px white;
+}
+
+.cellsButton .disabledPrimary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: not-allowed;
+    opacity: 0.56;
+}
+
+.cellsButton .disabledSecondary{
+    background-color: #3C3748;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: not-allowed;
+    opacity: 0.56;
+}
+
+.cellsButton .disabledTertiary{
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    cursor: not-allowed;
+    opacity: 0.56;
+}
+
