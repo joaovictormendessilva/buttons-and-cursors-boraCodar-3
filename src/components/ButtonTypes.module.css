@@ -1,7 +1,13 @@
 .ButtonTypes{
     background-color: #0b0911;
     height: 100vh;
-    padding: 107px 76px 0 77px;
+    padding: 32px 76px 77px;
+}
+
+.description{
+    margin-bottom: 60px;
+    opacity: 0.67;
+    font-size: 19.21px;
 }
 
 .ButtonTypes .tableTitle{
@@ -10,16 +16,23 @@
     font-size: 11px;
 }
 
-.tableContainer{
-    background-color: #1c162c;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
+.ButtonTypes .tableTitleCursor{
+    font-family: 'Roboto';
+    padding: 16px 16px 16px;
+    font-size: 11px;
+}
+
+.ButtonTypes .tableTitleRow{
+    font-family: 'Roboto';
+    padding: 16px 20px;
+    font-size: 11px;
 }
 
 .table{
     border-collapse: collapse;
     background-color: #1c162c;
+    border-right: solid 8px #1c162c;
+    border-bottom: solid 8px #1c162c;
 }
 
 .tableHeads th{
@@ -35,6 +48,8 @@ td{
     background-color: #0B0911;
     padding: 16px;
 }
+
+/* DEFAULT */
 
 .cellsButton .defaultPrimary{
     background-color: #8257E5;
@@ -60,10 +75,14 @@ td{
     cursor: pointer;
 }
 
+/* CURSORS */
+
 .cursors{
     text-align: center;
     background-color: #0B0911;
 }
+
+/* HOVER */
 
 .cellsButton .hoverPrimary{
     background-color: #8257E5;
@@ -101,6 +120,8 @@ td{
     cursor: pointer;
 }
 
+/* FOCUS */
+
 .cellsButton .focusPrimary:focus{
     border: solid 2px white;
 }
@@ -129,6 +150,8 @@ td{
     border: solid 2px white;
 }
 
+/* DISABLED */
+
 .cellsButton .disabledPrimary{
     background-color: #8257E5;
     padding: 12px 24px;
@@ -156,3 +179,82 @@ td{
     opacity: 0.56;
 }
 
+/* LOADING */
+
+.cellsButton .loadingPrimary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: progress;
+}
+
+.cellsButton .loadingSecondary{
+    background-color: #3C3748;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: progress;
+}
+
+.cellsButton .loadingTertiary{
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: progress;
+}
+
+.cellsButton .loadingPrimary svg,
+.cellsButton .loadingSecondary svg,
+.cellsButton .loadingTertiary svg{
+    animation: spinner 2s linear infinite;
+}
+
+.cellsButton .movablePrimary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: move;
+}
+
+.cellsButton .movableSecondary{
+    background-color: #8257E5;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: move;
+}
+
+.cellsButton .movableTertiary{
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: move;
+}
+
+@keyframes spinner{
+    100% {
+        transform: rotate(360deg);
+    }
+}
